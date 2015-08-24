@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+        <item android:title="分组">
+            <menu>
+                <item android:title="设置"
+                    android:id="@+id/set"/>
+                <item android:id="@+id/about"
+                    android:title="关于"/>
+                <item android:id="@+id/haha"
+                    android:title="哈哈"/>
+            </menu>
+
+        </item>
+
+    </group>
+    <item android:id="@+id/test"
+        android:title="test"/>
+    <item android:title="demo"
+        android:id="@+id/demo"/>
+
+</menu>
